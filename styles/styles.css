@@ -1,0 +1,25 @@
+/* =======General========= */
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #000000;;
+    background-color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding-left: 0;
+}
+a {
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+}
