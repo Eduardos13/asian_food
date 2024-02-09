@@ -1,17 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asianfood</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sniglet:wght@800&display=swap" rel="stylesheet">
-</head>
-<body>
-    <h1>Hello</h1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Asianfood</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="./styles/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sniglet:wght@800&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header class="header">
+            <div class="container">
+                <nav class="header-navigation">
+                    <a href="./index.html" class="header-logo">Asian<span class="logo-span-1">f</span><span class="logo-span-2">ood</span></a>
+                    <ul class="header-navigation-list">
+                        <li><a href="./index.html" class="header-navigation-item">Home</a></li>
+                        <li><a href="" class="header-navigation-item"></a>About</li>
+                        <li><a href="" class="header-navigation-item"></a>Blog</li>
+                        <li><a href="" class="header-navigation-item"></a>Service</li>
+                        <li><a href="" class="header-navigation-item"></a>Contact us</li>
+                    </ul>
+                    <div class="navigation-interactive">
+                        <ul class="header-navigation-icons">
+                            <li>
+                                <svg class="navigation-icons-item" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-search"></use>
+                                </svg>
+                            </li>
+                            <li>
+                                <svg class="navigation-icons-item" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-buy"></use>
+                                </svg>
+                            </li>
+                            <li>
+                                <svg class="navigation-icons-item" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-notification"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                        <button type="button" class="login-btn">Login</button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="container hero-section">
+                    <img src="./images/hero-image.png" alt="" class="hero-image">
+                    <div class="section-title">
+                        <h1 class="hero-title">Happy with <span>delicious food </span>and get new experiences with asian food</h1>
+                        <p class="hero-title-text">Exploring new food with different transition form all Asian country especially from Cambodia that you can try at this place and get a good price from us as well we will make a good impact to our customers </p>
+                        <div class="hero-buttons">
+                            <button type="button" class="btn-order">Order Food
+                                <svg width="24" height="24">
+                                    <use href="./images/icons.svg#icon-buy"></use>
+                                </svg>
+                            </button>
+                            <button type="button" class="btn-learn">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </body>
+
 </html>

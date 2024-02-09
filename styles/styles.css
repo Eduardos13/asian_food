@@ -2,7 +2,7 @@
 
 body {
     font-family: "Inter", sans-serif;
-    color: #000000;;
+    color: #000000;
     background-color: #ffffff;
 }
 
@@ -14,6 +14,7 @@ ul {
 a {
     text-decoration: none;
     margin: 0 auto;
+    color: #000000;
 }
 
 h1, h2, h3, h4, h5, h6, p{
@@ -22,4 +23,183 @@ h1, h2, h3, h4, h5, h6, p{
 
 img {
     display: block;
+}
+
+.container { 
+    min-width: 1280px ;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+/* =======Header========= */
+
+
+.header-logo {
+    font-family: "Sniglet", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: #f1c74e;
+
+}
+
+.logo-span-1 {
+    color: #000000;
+}
+
+.logo-span-2 {
+    color: #767676;
+}
+
+.header-navigation {
+    display: flex;
+    height: 40px;
+    margin-top: 55px;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    gap: 256px;
+}
+
+.header-navigation-list {
+    display: flex;
+    gap: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.header-navigation-item {
+    transition: color 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-navigation-item:hover,
+.header-navigation-item:focus {
+    color: #E5AF10
+}
+
+.navigation-interactive {
+    display: flex;
+    gap: 24px;
+}
+
+.header-navigation-icons {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.login-btn {
+    width: 62px;
+    height: 40px;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid #E5AF10;
+    border-radius: 8px;
+    padding: 8px 10px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.login-btn:hover,
+.login-btn:focus {
+    background-color: rgba(229, 175, 16, 0.2);
+}
+
+
+/* =======Hero section========= */
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-image {
+    width: 611px;
+    height: 647px;
+    padding-top: 45px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    max-width: 546px;
+    max-height: 288px;
+}
+
+.hero-title span {
+    color: #E5AF10;
+}
+
+.hero-title-text {
+    max-width: 505px;
+    max-height: 96px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.section-title {
+    padding-top: 135px;
+    padding-left: 174px;
+}
+
+.hero-title-text {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.hero-buttons {
+    display: flex;
+   margin-top: 36px;
+   align-items: center;
+   justify-content: center;
+   gap: 31px;
+}
+
+.btn-order {
+    width: 166px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #E5AF10;
+    border: none;
+    border-radius: 8px;
+    padding: 18px 24px;
+    line-height: 1.5;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.btn-order:hover,
+.btn-order:focus {
+    background-color: #d29f06;
+}
+
+.btn-order svg {
+    fill: #ffffff;
+}
+
+.btn-learn {
+    width: 134px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid #E5AF10;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-learn:hover,
+.btn-learn:focus {
+    background-color: rgba(229, 175, 16, 0.2);
 }
