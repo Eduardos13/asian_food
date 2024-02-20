@@ -57,7 +57,18 @@
 
             <section class="hero">
                 <div class="container hero-section">
-                    <img src="./images/hero-image.png" alt="" class="hero-image">
+                    <picture>
+                        <source 
+                        media="(320px)" 
+                        srcset="./images/hero-image.png 1x, ./images/hero-image@2x.png 2x"
+                        >
+                        <img 
+                        src="./images/hero-image.png"
+                        alt=""
+                        class="hero-image"
+                        >
+                    </picture>
+  
                     <div class="section-title">
                         <h1 class="hero-title">Happy with <span>delicious food </span>and get new experiences with asian food</h1>
                         <p class="hero-title-text">Exploring new food with different transition form all Asian country especially from Cambodia that you can try at this place and get a good price from us as well we will make a good impact to our customers </p>
