@@ -461,7 +461,6 @@ img {
 .special-dish {
     width: 368px;
     height: 304px;
-    
 }
 
 .special-dish-container {
@@ -519,4 +518,129 @@ img {
 .order-now-btn:hover,
 .order-now-btn:focus {
     background-color: #d29f06;
+}
+
+/* =======Place of restaurant========= */
+
+.place-restaurant {
+    margin-top: 167px;
+    padding-bottom: 111px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.30;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.place-restaurant::after {
+    content: '';
+    border: 3px solid #E5AF10;
+    width: 152px;
+    height: 0px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 51px;
+}
+
+.restaurant-container {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.advantage-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.30;
+    text-transform: capitalize;
+}
+
+.advantage-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    width: 481px;
+}
+
+/* =======Reviews========= */
+
+.reviews-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.30;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 148px;
+    padding-bottom: 107px;
+}
+
+.reviews-title::after {
+    content: '';
+    border: 3px solid #E5AF10;
+    width: 152px;
+    height: 0px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 51px;
+}
+
+.review-container {
+    display: flex;
+    justify-content: center;
+    gap: 58px;
+}
+
+.review-item {
+    border: 1px solid #C6C6C6;
+    border-radius: 8px;
+    padding: 24px;
+    width: 565px;
+    height: 100%;
+}
+
+.client-box {
+    display: flex;
+    align-items: center;
+}
+
+.review-name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.67;
+    text-transform: capitalize;
+    margin: 0;;
+    padding-left: 26px;
+}
+
+.review-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    padding-top: 27px;
+    padding-bottom: 18px;
+}
+
+.star-icn {
+    fill: #f1c74e;
+}
+
+.rate-box {
+    display: flex;
+    width: 200px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rate-box p {
+    padding-left: 8px;
+    margin: 0;
+}
+
+.add-review-icn {
+    fill: #000000;
 }
