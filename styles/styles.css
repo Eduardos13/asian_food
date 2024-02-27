@@ -541,7 +541,7 @@ img {
     height: 0px;
     display: block;
     margin-top: 10px;
-    margin-left: 51px;
+
 }
 
 .restaurant-container {
@@ -585,7 +585,6 @@ img {
     height: 0px;
     display: block;
     margin-top: 10px;
-    margin-left: 51px;
 }
 
 .review-container {
@@ -641,6 +640,197 @@ img {
     margin: 0;
 }
 
+.add-review {
+    display: flex;
+    width: 150px;
+    align-items: center;
+    margin-left: 88px;
+    margin-top: 33px;
+}
+
 .add-review-icn {
-    fill: #000000;
+    background-color: #000000;
+}
+
+/* =======Stay in touch========= */
+
+.stay-title {
+    margin-top: 56px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.30;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stay-title::after {
+    content: '';
+    border: 3px solid #E5AF10;
+    width: 152px;
+    height: 0px;
+    display: block;
+    margin-top: 10px;
+}
+
+.login-container {
+    border: 1px solid #C6C6C6;
+    border-radius: 8px;
+    padding: 24px;
+    width: 678px;
+    height: 364px;
+    margin-top: 100px;
+    margin-bottom: 68px;
+}
+
+.login-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.25;
+    text-transform: capitalize;
+    padding-bottom: 48px;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.25;
+    text-transform: capitalize;
+    padding-bottom: 16px;
+}
+
+.login-input {
+    border: 1px solid #C6C6C6;
+    border-radius: 8px;
+    padding: 20px;
+    width: 630px;
+    height: 64px;
+}
+
+.login-input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    color: #000000;
+}
+
+.login-form-btn {
+    border: 1px solid #E5AF10;
+    border-radius: 8px;
+    padding: 18px 24px;
+    width: 630px;
+    height: 60px;
+    background-color: #E5AF10;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    color: #ffffff;
+    margin-top: 48px;
+    cursor: pointer;
+}
+
+.login-form-btn:hover {
+    background-color: #b58b0d;
+}
+
+.login-form-btn:active {
+    background-color: #eeb918;
+}
+
+.touch-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.touch-container a {
+    font-size: 96px;
+}
+
+/* =======Footer========= */
+
+.footer-container {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-top: 1px solid #000000;
+    background-color: rgba(241, 199, 78, 0.25);
+    display: flex;
+    align-items: baseline;
+}
+
+.logo-container {
+    padding-right: 130px;
+    padding-left: 80px;
+    padding-top: 139px;
+}
+
+.payment-box {
+    padding-top: 49px;
+    width: 255px;
+}
+
+.payment-list {
+    display: flex;
+    padding-top: 16px;
+    gap: 5px;
+}
+
+.social-box {
+    padding-right: 171px;
+    padding-top: 139px;
+}
+
+.social-list {
+    display: flex;
+    gap: 26px;
+    padding-top: 16px;
+}
+
+.support-box {
+    padding-right: 186px;
+    padding-top: 139px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.support-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.location-box {
+    padding-top: 139px;
+    width: 216px;
+}
+
+.location-title {
+    padding-bottom: 16px;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.border {
+    width: 1280px;
+    height: 1px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #C6C6C6;
 }
